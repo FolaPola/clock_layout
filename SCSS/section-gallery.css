@@ -1,0 +1,64 @@
+section.gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1366px;
+  height: 520px;
+}
+section.gallery div.baner_img {
+  position: relative;
+  margin: 0;
+  width: 700px;
+  height: 519px;
+}
+section.gallery div.baner_img img.baner1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 468px;
+  height: 519px;
+}
+section.gallery div.baner_img img.photo {
+  position: absolute;
+  top: 52px;
+  left: 117px;
+  width: 521px;
+  height: 414px;
+}
+section.gallery div.baner_img img.pagination {
+  position: absolute;
+  top: 486px;
+  bottom: 12px;
+  left: 550px;
+  width: 63px;
+  height: 12px;
+}
+
+div.text_1 {
+  padding-top: 140px;
+  padding-bottom: 136px;
+  margin-left: 30px;
+  width: 640px;
+  height: 520px;
+  background-image: url("../IMG/lines_banner.png");
+  background-repeat: no-repeat;
+  background-size: 900px 510px;
+  background-position-x: -320px;
+}
+div.text_1 h2 {
+  padding-bottom: 38px;
+  font: 400 32px/44px "Playfair_Display";
+}
+div.text_1 p {
+  margin-bottom: 45px;
+  width: 376px;
+  font-size: 16px;
+  line-height: 24px;
+}
+div.text_1 form button {
+  width: 205px;
+  height: 64px;
+  font-size: 12px;
+  background-color: #D4B098;
+  color: #FFFFFF;
+}/*# sourceMappingURL=section-gallery.css.map */

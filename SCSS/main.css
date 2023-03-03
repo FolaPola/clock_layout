@@ -1,0 +1,75 @@
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 770px;
+  width: 1366px;
+  padding-left: 100px;
+  padding-right: 114px;
+  background-image: url(../IMG/Ellipse_123.svg);
+  background-repeat: no-repeat;
+  background-position: 460px;
+}
+
+div.info {
+  margin-top: 236px;
+  color: #1B1A17;
+}
+div.info h1 {
+  font: 400 45px/60px "Playfair_Display";
+}
+div.info h1 div {
+  display: inline-block;
+  border-bottom: 1px solid #8B8371;
+  width: 50px;
+  margin: 15px;
+}
+div.info h2 {
+  margin: 16px 0 39px 80px;
+  font: 400 30px/40px "Playfair_Display";
+}
+div.info p {
+  margin-bottom: 64px;
+  margin-left: 80px;
+  width: 258px;
+  font-size: 14px;
+  line-height: 22px;
+}
+div.info form button {
+  margin-left: 80px;
+  width: 205px;
+  height: 64px;
+  font-size: 12px;
+  background-color: #444240;
+  color: #FFFFFF;
+}
+
+div.time {
+  display: inline-block;
+  background-image: url(../IMG/watch_main.png);
+  background-repeat: no-repeat;
+  background-position: 40px -10px;
+  font: 400 16px/22px "Playfair_Display";
+}
+div.time h3.price {
+  margin-top: 138px;
+  margin-right: 500px;
+  font-size: 16px;
+}
+div.time h3.price div {
+  display: inline-block;
+  border-bottom: 1px solid #8B8371;
+  width: 50px;
+  margin: 8px;
+}
+div.time h3.info_mm {
+  margin-top: 520px;
+  margin-left: 450px;
+  font-size: 16px;
+}
+div.time h3.info_mm div {
+  display: inline-block;
+  border-bottom: 1px solid #8B8371;
+  width: 50px;
+  margin: 8px;
+}/*# sourceMappingURL=main.css.map */

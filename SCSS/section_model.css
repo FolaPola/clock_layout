@@ -1,0 +1,46 @@
+section.model {
+  padding: 76px 98px 86px;
+  width: 1366px;
+}
+section.model h2 {
+  font: 400 32px/42px "Playfair_Display";
+  text-align: center;
+}
+section.model p.text {
+  margin-left: 1060px;
+  padding-bottom: 12px;
+  width: 105px;
+  border-bottom: 1px solid #C4C0B6;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+div.model {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+}
+div.model div {
+  padding-top: 37px;
+  width: 370px;
+  height: 470px;
+}
+div.model div h3 {
+  font: 700 14px/25px "Playfair_Display";
+  padding-left: 40px;
+  text-align: left;
+}
+div.model div p.cent {
+  font-size: 12px;
+  font-family: "Playfair_Display";
+  text-align: left;
+  padding-left: 40px;
+}
+div.model div p.info_info {
+  padding-left: 40px;
+  text-align: left;
+}
+div.model div p.info_info img {
+  padding: 6px 12px;
+}/*# sourceMappingURL=section_model.css.map */

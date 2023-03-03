@@ -1,0 +1,126 @@
+@media (min-width: 500px) and (max-width: 1286px) {
+  body {
+    width: 100%;
+  }
+  header {
+    width: 100%;
+    background-color: #F7F5EF;
+    border-bottom: 1px solid #1B1A17 header img;
+    border-bottom-display: none;
+  }
+  header nav {
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  header nav a {
+    padding: 5%;
+    font-size: 22px;
+    color: #555248;
+  }
+  main {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    background-image: url("../IMG/watch_main.png");
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: 90% 35%;
+  }
+  main div.time {
+    display: none;
+  }
+  main div.info {
+    color: #1B1A17;
+  }
+  main div.info h1 {
+    padding: 15%;
+    font: 400 45px/60px "Playfair_Display";
+  }
+  main div.info h2 {
+    padding: 0% 15%;
+    font: 400 30px/40px "Playfair_Display";
+  }
+  main div.info p {
+    display: none;
+  }
+  main div.info form button {
+    margin: 15%;
+    width: 205px;
+    height: 64px;
+    font-size: 16px;
+    background-color: #444240;
+    color: #FFFFFF;
+  }
+  section.model {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    background-color: #ebe4e0;
+  }
+  section.model h2 {
+    margin: 5%;
+    font: 400 32px/42px "Playfair_Display";
+  }
+  section.model p.text {
+    display: none;
+  }
+  section.model div.model div h3 {
+    margin: 5% 0%;
+    font: 700 14px/25px "Playfair_Display";
+  }
+  section.model div.model div p.info_info {
+    display: none;
+  }
+  section.gallery {
+    display: none;
+  }
+  section.news {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+  }
+  section.news div.social h2 {
+    display: none;
+  }
+  section.news div.social p {
+    padding: 5%;
+    font-size: 16px;
+    line-height: 28px;
+    background-color: #F7F5EF;
+  }
+  section.news div.social div {
+    text-align: center;
+  }
+  section.news div.social div img.twitter {
+    padding-top: 6%;
+  }
+  section.news div.social div img {
+    padding: 5%;
+  }
+  section.news div.painting {
+    display: none;
+  }
+  footer {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    background-color: #444240;
+    color: #FFFFFF;
+  }
+  footer nav div img {
+    display: none;
+  }
+  footer nav div p {
+    padding: 3%;
+    text-align: center;
+  }
+  footer nav div h3 {
+    display: none;
+  }
+  footer nav div nav {
+    display: none;
+  }
+}/*# sourceMappingURL=media_midle.css.map */

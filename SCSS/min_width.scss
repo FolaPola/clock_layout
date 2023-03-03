@@ -1,0 +1,11 @@
+@media (min-width: 1286px) {
+    @import "header";
+    @import "main";
+    @import "section_model";
+    @import "section-gallery.scss";
+    @import "section.news";
+    @import "footer";
+    body {
+        width: 1366px;
+      }
+}

@@ -1,0 +1,652 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+/* Links */
+a, a:link, a:visited {
+  /* color: inherit; */
+  text-decoration: none;
+  /* display: inline-block; */
+}
+
+a:hover {
+  /* color: inherit; */
+  text-decoration: none;
+}
+
+/* Common */
+aside, nav, footer, header, section, main {
+  display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+ul, ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+img, svg {
+  max-width: 100%;
+  height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Form */
+input, textarea, button, select {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button, input[type=submit] {
+  display: inline-block;
+  box-shadow: none;
+  background-color: transparent;
+  background: none;
+  cursor: pointer;
+}
+
+input:focus, input:active,
+button:focus, button:active {
+  outline: none;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+label {
+  cursor: pointer;
+}
+
+legend {
+  display: block;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Thin", sans-serif;
+  font-family: "Roboto Light", sans-serif;
+  font-family: "Roboto Medium", sans-serif;
+  font-family: "Roboto Black", sans-serif;
+}
+
+@media (max-width: 500px) {
+  body {
+    width: 500px;
+  }
+  header {
+    width: 100%;
+    text-align: center;
+    background-color: #F7F5EF;
+    border-bottom: 1px solid #1B1A17;
+  }
+  header img {
+    margin: 10%;
+  }
+  header nav {
+    display: none;
+  }
+  header nav a {
+    display: none;
+  }
+  main {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    background-color: #C4C0B6;
+  }
+  main div.time {
+    display: none;
+  }
+  main div.info {
+    color: #1B1A17;
+  }
+  main div.info h1 {
+    padding: 15%;
+    font: 400 45px/60px "Playfair_Display";
+  }
+  main div.info h2 {
+    padding: 0% 15%;
+    font: 400 30px/40px "Playfair_Display";
+  }
+  main div.info p {
+    display: none;
+  }
+  main div.info form button {
+    margin: 15%;
+    width: 205px;
+    height: 64px;
+    font-size: 12px;
+    background-color: #444240;
+    color: #FFFFFF;
+  }
+  section.model {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+  }
+  section.model h2 {
+    margin: 5%;
+    font: 400 32px/42px "Playfair_Display";
+  }
+  section.model p.text {
+    display: none;
+  }
+  section.model div.model div h3 {
+    margin: 5% 0%;
+    font: 700 14px/25px "Playfair_Display";
+  }
+  section.model div.model div p.info_info {
+    display: none;
+  }
+  section.gallery {
+    display: none;
+  }
+  section.news {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+  }
+  section.news div.social h2 {
+    display: none;
+  }
+  section.news div.social p {
+    padding: 5%;
+    font-size: 16px;
+    line-height: 28px;
+    background-color: #F7F5EF;
+  }
+  section.news div.social div {
+    text-align: center;
+  }
+  section.news div.social div img.twitter {
+    padding-top: 6%;
+  }
+  section.news div.social div img {
+    padding: 5%;
+  }
+  section.news div.painting {
+    display: none;
+  }
+  footer {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    background-color: #444240;
+    color: #FFFFFF;
+  }
+  footer nav div img {
+    margin-left: 36%;
+  }
+  footer nav div p {
+    padding: 3%;
+    text-align: center;
+  }
+  footer nav div h3 {
+    display: none;
+  }
+  footer nav div nav {
+    display: none;
+  }
+}
+@media (min-width: 1286px) {
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 90px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  header img {
+    width: 100px;
+  }
+  header nav a {
+    padding-right: 32px;
+    padding-left: 32px;
+    font-size: 14px;
+    color: #555248;
+  }
+  main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 770px;
+    width: 1366px;
+    padding-left: 100px;
+    padding-right: 114px;
+    background-image: url(../IMG/Ellipse_123.svg);
+    background-repeat: no-repeat;
+    background-position: 460px;
+  }
+  div.info {
+    margin-top: 236px;
+    color: #1B1A17;
+  }
+  div.info h1 {
+    font: 400 45px/60px "Playfair_Display";
+  }
+  div.info h1 div {
+    display: inline-block;
+    border-bottom: 1px solid #8B8371;
+    width: 50px;
+    margin: 15px;
+  }
+  div.info h2 {
+    margin: 16px 0 39px 80px;
+    font: 400 30px/40px "Playfair_Display";
+  }
+  div.info p {
+    margin-bottom: 64px;
+    margin-left: 80px;
+    width: 258px;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  div.info form button {
+    margin-left: 80px;
+    width: 205px;
+    height: 64px;
+    font-size: 12px;
+    background-color: #444240;
+    color: #FFFFFF;
+  }
+  div.time {
+    display: inline-block;
+    background-image: url(../IMG/watch_main.png);
+    background-repeat: no-repeat;
+    background-position: 40px -10px;
+    font: 400 16px/22px "Playfair_Display";
+  }
+  div.time h3.price {
+    margin-top: 138px;
+    margin-right: 500px;
+    font-size: 16px;
+  }
+  div.time h3.price div {
+    display: inline-block;
+    border-bottom: 1px solid #8B8371;
+    width: 50px;
+    margin: 8px;
+  }
+  div.time h3.info_mm {
+    margin-top: 520px;
+    margin-left: 450px;
+    font-size: 16px;
+  }
+  div.time h3.info_mm div {
+    display: inline-block;
+    border-bottom: 1px solid #8B8371;
+    width: 50px;
+    margin: 8px;
+  }
+  section.model {
+    padding: 76px 98px 86px;
+    width: 1366px;
+  }
+  section.model h2 {
+    font: 400 32px/42px "Playfair_Display";
+    text-align: center;
+  }
+  section.model p.text {
+    margin-left: 1060px;
+    padding-bottom: 12px;
+    width: 105px;
+    border-bottom: 1px solid #C4C0B6;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  div.model {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+  }
+  div.model div {
+    padding-top: 37px;
+    width: 370px;
+    height: 470px;
+  }
+  div.model div h3 {
+    font: 700 14px/25px "Playfair_Display";
+    padding-left: 40px;
+    text-align: left;
+  }
+  div.model div p.cent {
+    font-size: 12px;
+    font-family: "Playfair_Display";
+    text-align: left;
+    padding-left: 40px;
+  }
+  div.model div p.info_info {
+    padding-left: 40px;
+    text-align: left;
+  }
+  div.model div p.info_info img {
+    padding: 6px 12px;
+  }
+  section.gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1366px;
+    height: 520px;
+  }
+  section.gallery div.baner_img {
+    position: relative;
+    margin: 0;
+    width: 700px;
+    height: 519px;
+  }
+  section.gallery div.baner_img img.baner1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 468px;
+    height: 519px;
+  }
+  section.gallery div.baner_img img.photo {
+    position: absolute;
+    top: 52px;
+    left: 117px;
+    width: 521px;
+    height: 414px;
+  }
+  section.gallery div.baner_img img.pagination {
+    position: absolute;
+    top: 486px;
+    bottom: 12px;
+    left: 550px;
+    width: 63px;
+    height: 12px;
+  }
+  div.text_1 {
+    padding-top: 140px;
+    padding-bottom: 136px;
+    margin-left: 30px;
+    width: 640px;
+    height: 520px;
+    background-image: url("../IMG/lines_banner.png");
+    background-repeat: no-repeat;
+    background-size: 900px 510px;
+    background-position-x: -320px;
+  }
+  div.text_1 h2 {
+    padding-bottom: 38px;
+    font: 400 32px/44px "Playfair_Display";
+  }
+  div.text_1 p {
+    margin-bottom: 45px;
+    width: 376px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  div.text_1 form button {
+    width: 205px;
+    height: 64px;
+    font-size: 12px;
+    background-color: #D4B098;
+    color: #FFFFFF;
+  }
+  section.news {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 80px 90px;
+    width: 1366px;
+  }
+  section.news div.social {
+    width: 450px;
+    height: 460px;
+  }
+  section.news div.social h2 {
+    padding-top: 120px;
+    padding-bottom: 40px;
+    font: 400 32px/44px "Playfair_Display";
+  }
+  section.news div.social p {
+    padding-bottom: 120px;
+    width: 386px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+  section.news div.social div {
+    display: flex;
+  }
+  section.news div.social div img.twitter {
+    padding-top: 2px;
+  }
+  section.news div.social div img {
+    padding-right: 18px;
+  }
+  section.news div.painting {
+    position: relative;
+    width: 570px;
+    height: 460px;
+    margin: 0 auto;
+  }
+  section.news div.painting img.time1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 242px;
+    height: 228px;
+  }
+  section.news div.painting img.time2 {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 242px;
+    height: 222px;
+  }
+  section.news div.painting img.time3 {
+    position: absolute;
+    top: 0px;
+    left: 252px;
+    width: 377px;
+    height: 460px;
+  }
+  footer {
+    padding: 79px 180px 67px 180px;
+    width: 1366px;
+    height: 295px;
+    background-color: #444240;
+    color: #FFFFFF;
+  }
+  footer nav {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+  footer nav div img {
+    padding-bottom: 10px;
+  }
+  footer nav div p {
+    font-size: 12px;
+    padding-top: 15px;
+  }
+  footer nav div h3 {
+    padding-top: 13px;
+    padding-bottom: 33px;
+    font-size: 14px;
+  }
+  footer nav div nav {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  footer nav div nav a {
+    padding-bottom: 15px;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.7490196078);
+  }
+  body {
+    width: 1366px;
+  }
+}
+@media (min-width: 500px) and (max-width: 1286px) {
+  body {
+    width: 100%;
+  }
+  header {
+    width: 100%;
+    background-color: #F7F5EF;
+    border-bottom: 1px solid #1B1A17;
+  }
+  header img {
+    display: none;
+  }
+  header nav {
+  padding: 2%;
+  display: flex;
+	flex-direction: row;
+  justify-content: center ;
+  
+  }
+  header nav a {
+    padding: 5%;
+    font-size: 22px;
+    color: #555248;  }
+  main {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    background-image: url("../IMG/watch_main.png");
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: 90% 35%;
+  }
+  main div.time {
+    display: none;
+  }
+  main div.info {
+    color: #1B1A17;
+  }
+  main div.info h1 {
+    padding: 15%;
+    font: 400 45px/60px "Playfair_Display";
+  }
+  main div.info h2 {
+    padding: 0% 15%;
+    font: 400 30px/40px "Playfair_Display";
+  }
+  main div.info p {
+    display: none;
+  }
+  main div.info form button {
+    margin: 15%;
+    width: 205px;
+    height: 64px;
+    font-size: 16px;
+    background-color: #444240;
+    color: #FFFFFF;
+  }
+  section.model {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    background-color: #ebe4e0;
+  }
+  section.model h2 {
+    margin: 5%;
+    font: 400 32px/42px "Playfair_Display";
+  }
+  section.model p.text {
+    display: none;
+  }
+  section.model div.model div h3 {
+    margin: 5% 0%;
+    font: 700 14px/25px "Playfair_Display";
+  }
+  section.model div.model div p.info_info {
+    display: none;
+  }
+  section.gallery {
+    display: none;
+  }
+  section.news {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+  }
+  section.news div.social h2 {
+    display: none;
+  }
+  section.news div.social p {
+    padding: 5%;
+    font-size: 16px;
+    line-height: 28px;
+    background-color: #F7F5EF;
+  }
+  section.news div.social div {
+    text-align: center;
+  }
+  section.news div.social div img.twitter {
+    padding-top: 6%;
+  }
+  section.news div.social div img {
+    padding: 5%;
+  }
+  section.news div.painting {
+    display: none;
+  }
+  footer {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    background-color: #444240;
+    color: #FFFFFF;
+  }
+  footer nav div img {
+    display: none;
+  }
+  footer nav div p {
+    padding: 3%;
+    text-align: center;
+  }
+  footer nav div h3 {
+    display: none;
+  }
+  footer nav div nav {
+    display: none;
+  }
+}/*# sourceMappingURL=scss_basic.css.map */

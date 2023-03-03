@@ -1,0 +1,142 @@
+@media (min-width: 500px) and (max-width: 1286px){
+    
+    body {
+        width: 100%;
+    }
+    header {
+        width: 100%;
+        background-color: #F7F5EF;
+        border-bottom: 1px solid #1B1A17
+        & img {
+            display: none;
+        }
+        & nav {
+            padding: 2%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center ;
+            & a{
+                padding: 5%;
+                font-size: 22px;
+                color: #555248;
+            }
+        }
+        }
+        main {
+            width: 100%;
+            padding: 0px;
+            margin: 0px;
+            background-image: url("../IMG/watch_main.png");
+            background-repeat: no-repeat;
+            background-size: 30%;
+            background-position: 90% 35%;
+        & div.time {
+            display: none;
+        }
+        & div.info {
+            color: #1B1A17;
+            & h1 {
+                padding: 15%;
+                font: 400 45px/60px "Playfair_Display";
+            }
+            & h2 {
+                padding: 0% 15%;
+                font: 400 30px/40px "Playfair_Display";
+            }
+            & p { 
+                display: none;
+            }
+            & form {
+                & button {
+                    margin: 15%;
+                    width: 205px;
+                    height: 64px;
+                    font-size: 16px;
+                    background-color: #444240;
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
+    section.model{
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+        text-align: center;
+        background-color: #ebe4e0;
+        & h2 {
+            margin: 5%;
+             font: 400 32px/42px "Playfair_Display";
+        }
+        & p.text {
+            display: none;
+        }
+        div.model {
+            & div {
+                & h3 {
+                    margin: 5% 0%;
+                    font: 700 14px/25px "Playfair_Display";
+                }
+                & p.info_info {
+                    display: none;
+                }
+            }
+        }
+        
+    }
+    section.gallery {
+        display: none;
+    }
+    section.news {
+         width: 100%;
+         padding: 0px;
+         margin: 0px;
+        & div.social {
+            & h2 {
+                display: none;
+            }
+            & p {
+                padding: 5%;
+                font-size: 16px;
+                line-height: 28px;
+                background-color: #F7F5EF;
+            }
+            & div { 
+                text-align: center;
+                & img.twitter {
+                    padding-top: 6%;
+                }
+                & img {
+                    padding: 5%;
+                }
+            }
+        }
+    & div.painting {
+        display: none;
+    }
+    }
+    footer {
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+        background-color: #444240;
+        color: #FFFFFF;
+    & nav {
+        & div {
+            & img {
+                display: none;
+            }
+            & p{
+                padding: 3%;
+                text-align: center;
+            }
+            & h3 {
+                display: none;
+            }
+            & nav {
+                display: none
+            }
+        }
+    }
+    }
+}

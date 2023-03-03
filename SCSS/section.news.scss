@@ -1,0 +1,62 @@
+section.news {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 80px 90px;
+    width: 1366px;
+    & div.social {
+        width: 450px;
+        height: 460px;
+        & h2 {
+            padding-top: 120px;
+            padding-bottom: 40px;
+            font: 400 32px/44px "Playfair_Display";
+        }
+        & p {
+            padding-bottom: 120px;
+            width: 386px;
+            font-size: 16px;
+            line-height: 28px;
+        }
+        & div { 
+            display: flex;
+            & img.twitter {
+                padding-top: 2px;
+            }
+            & img {
+                padding-right: 18px;
+            }
+        }
+    }
+    & div.painting {
+        position: relative;
+        width: 570px;
+        height: 460px;
+        margin: 0 auto;
+        & img.time1{
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                
+                width: 242px;
+                height: 228px;
+            }
+        & img.time2 {
+                position: absolute;
+                bottom: 0px;
+                left: 0px;
+                
+                width: 242px;
+                height: 222px;
+        }
+        & img.time3 {
+                position: absolute;
+                top: 0px;
+                left: 252px;
+                
+                width: 377px;
+                height: 460px;
+        } 
+
+    }
+}
